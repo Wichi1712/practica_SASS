@@ -1,0 +1,47 @@
+
+/*
+== * Primero para instalar sass digitar en consola npm install -g sass 
+== * Para traducir de scss a css  sass estilos.scss estilos.css
+== * Convierte automaticamnete a css sass --watch estilos.scss estilos.css
+
+==*/
+
+/*  PALETA  */
+$verde: #184d47;
+$amarillo: #10ff00;
+$azul: #086972;
+$azulClaro: #d2cfe4;
+$rojo: #ff0000;
+/* == TAMAÑO DE LETRA == */
+$letra-Xgrande: 40px;
+$letra-grande: 32px;
+$letra_mediano: 28px;
+$letra-peq: 18px;
+/* == PADDING == */
+$padding: 0.677rem;
+/* == MARGIN == */
+$margin: 0.887rem;
+
+
+body { background-color: $azul;}
+h1 { color: $azulClaro;}
+
+
+/* Anidando elementos*/
+ul {
+    padding: $padding;
+    li {
+        display: inline-block;
+        color: $amarillo;
+        font-size: $letra-peq;
+    }
+    #conejo {color: $rojo; font-size: $letra_mediano;}
+}
+
+#lista {
+    li {
+        display: inline-block;
+        color: $amarillo;
+        font-size: $letra-Xgrande;
+    }
+}

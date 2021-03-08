@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+== * Primero para instalar sass digitar en consola npm install -g sass 
+== * Para traducir de scss a css  sass estilos.scss estilos.css
+== * Convierte automaticamnete a css sass --watch estilos.scss estilos.css
+
+==*/
+/*  PALETA  */
+/* == TAMAÑO DE LETRA == */
+/* == PADDING == */
+/* == MARGIN == */
+body {
+  background-color: #086972;
+}
+
+h1 {
+  color: #d2cfe4;
+}
+
+/* Anidando elementos*/
+ul {
+  padding: 0.677rem;
+}
+ul li {
+  display: inline-block;
+  color: #10ff00;
+  font-size: 18px;
+}
+ul #conejo {
+  color: #ff0000;
+  font-size: 28px;
+}
+
+#lista li {
+  display: inline-block;
+  color: #10ff00;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
